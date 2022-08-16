@@ -23,8 +23,8 @@
             <a href="#contact" class="btn">Let's Talk</a>
         </nav>
         <div class="content">
-            <h4>Hello, my name is</h4>
-            <h1>Senituli <span>Kinikini</span></h1>
+            <h4 style="color: darkorange;">Hello, my name is</h4>
+            <h1>Senituli Kinikini</h1>
             <h3>I am a Web Developer</h3>
             <p style="color: #f4f4ff; font-weight: bold; font-size: 20px;"><span style="color: darkorange">Number</span> : 307-220-0639</p>
             <p style="color: #f4f4ff; font-weight: bold; font-size: 20px; margin-top: 5px;"><span style="color: darkorange">Email</span> : Tuli.kinikini@gmail.com</p>
@@ -41,10 +41,8 @@
             </div>
             <div class="about-text">
                 <h2>About Me</h2>
-                <h5>Developer <span>& Designer</span></h5>
-                <p>I am a full-stack web developer with an emphasis on React and PostgreSQL. AGILE is my mantra and with this
-                philosophy I aim to create great user experiences. I am a husband and father of one who enjoys spending time outdoors with family. 
-                I am a Tongan-American and food is one of our biggest pastimes where I'm from. Food and good people can make anyone happy!
+                <p style="color: darkorange;">I am a full stack web developer. My goal is to create great user experiences! I am a husband and father of one who enjoys spending time outdoors with family. 
+                I am a Tongan-American and food is one of our biggest pastimes where I'm from. I enjoy the outdoors and pushing my limits every chance I get.
                 </p>
             </div>
         </div>
@@ -97,7 +95,7 @@
                 <h5>Ease Of Use</h5>
                 <div class="pra">
                     <p>Apps built with the user experience mind. I can create great
-                        UX that is conducive to user behaviors
+                        UX that is conducive to user behaviors.
                     </p>
                     
                 </div>
@@ -106,8 +104,7 @@
                 <i class="fa-solid fa-user"></i>
                 <h5>Stunning Front-Ends</h5>
                 <div class="pra">
-                    <p>Beautifully designed, fast, responsive front-end,
-                        I can make websites look and feel great
+                    <p>Beautifully designed, fast and respnsive front-end.
                     </p>
                    
                 </div>
@@ -116,9 +113,9 @@
                 <i class="fa-solid fa-bell"></i>
                 <h5>Back-End Development</h5>
                 <div class="pra">
-                    <p>Fast, efficient back-end queries using PostgreSQL. 
-                        I can make back-end processing both fast for the user and
-                        cost effective for the company
+                    <p>Fast, efficient back-end queries using SQL. 
+                        I can make back-end processes both fast for the user and
+                        cost effective for the company.
                     </p>
                     
                 </div>
@@ -127,39 +124,22 @@
     </div>
 
     <div id="contact" class="contact-me">
-        <p>Send me an email.</p>
-        <form>
-            Username:
-            <input  class="email" type="text" name="username"  id="username" 
-                   placeholder="Enter Username">
-            Message:
-            <input  id='textarea' class="email" type="text" name="message" 
-                rows="100" cols="300" 
-                placeholder="Enter your message">
-            
-            <input style="margin: 10px;" class="btn" type="button" value="Send Email" onclick="sendEmail()">
-        </form>
+        <p>Contact:</p>
+        <p>tuli.kinikini@gmail.com</p>
+        <p>(307)-220-0639</p>
+        
     </div>
 
     <footer>
         <p>Senituli Kinikini</p>
         <p>For more information follow me on social media:</p>
         <div class="social">
-            <a href="https://www.facebook.com/tuli.kinikini/"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://www.linkedin.com/in/senituliwebdeveloper/"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/TonganHorse"><i class="fa-brands fa-github"></i></a>
         </div>
         <p class="end">Copyright By Senituli Kinikini</p>
     </footer>
 
-    <script>
-        function sendEmail() {
-            const message = document.getElementById('textarea')
-            const sender = document.getElementById('username')
-            window.location.href('mailto:tuli.kinikini@gmail.com?body='+ message)
-            
-        }
-
-    </script>
+    
 </body>
 </html>
